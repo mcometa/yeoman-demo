@@ -1,4 +1,4 @@
-Friendster Brown Bag Series Presents
-i
-Yeoman: Yeoman Workflow for Modern Webapps
+Friendster Brown Bag Series Presents...
+
+Yeoman: Workflow for Modern Webapps
 ==========================================
