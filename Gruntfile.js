@@ -20,7 +20,7 @@ module.exports = function (grunt) {
     /* Project Settings */
     yeoman: {
       //Paths
-      app: './',       
+      app: './',
     },
 
     connect: {
@@ -36,14 +36,14 @@ module.exports = function (grunt) {
       options: {
         livereload: true
       },
-      gruntfile: {
+      grunt: {
         files: ['Gruntfile.js']
       },
       target: {
         files: ['index.html', 'styles/**/*.css', 'scripts/**/*.js']
       },
       compass: {
-        files: ['styles/**/*.{scss,sass}'],
+        files: ['styles/src/**/*.scss'],
       }
     },
 
@@ -82,7 +82,7 @@ module.exports = function (grunt) {
     },
 
     // Remove the .tmp directory which contains the compiled sass files
-    clean: [ 'styles/src/**/*.css' ],
+    clean: [ 'styles/**/*.css', '<% yeoman.app %>.sass-cache/' ],
 
 
   });
@@ -98,7 +98,7 @@ module.exports = function (grunt) {
 
   // Default task.
   grunt.registerTask('default', [
-    'connect', 
+    'connect',
     'clean',
     'compass',
     'watch',
