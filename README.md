@@ -2,7 +2,7 @@ Friendster Brown Bag Series Presents...
 
 ##Yeoman: An Introduction
 
-In this episode of the Frienster Brown Bag, I will take a look at how the Yeoman Workflow can help you improve your Front End development workflow with tools from [Yeoman](http://yeoman.io) itself, [Grunt](http://gruntjs.com) and [Bower](http://bower.io).
+In this episode of the Frienster Brown Bag series, I will do a demo at how the Yeoman Workflow can help you improve your Front End development workflow with tools from [Yeoman](http://yeoman.io) itself, [Grunt](http://gruntjs.com) and [Bower](http://bower.io).
 
 ### More
 
